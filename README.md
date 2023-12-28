@@ -1,50 +1,50 @@
 ![Grafana Logo (Light)](docs/logo-horizontal.png#gh-light-mode-only)
 ![Grafana Logo (Dark)](docs/logo-horizontal-dark.png#gh-dark-mode-only)
 
-The open-source platform for monitoring and observability
+Платформа с открытым исходным кодом для мониторинга и контроля
 
 [![License](https://img.shields.io/github/license/grafana/grafana)](LICENSE)
 [![Drone](https://drone.grafana.net/api/badges/grafana/grafana/status.svg)](https://drone.grafana.net/grafana/grafana)
 [![Go Report Card](https://goreportcard.com/badge/github.com/grafana/grafana)](https://goreportcard.com/report/github.com/grafana/grafana)
 
-Grafana allows you to query, visualize, alert on and understand your metrics no matter where they are stored. Create, explore, and share dashboards with your team and foster a data-driven culture:
+Grafana позволяет вам запрашивать, визуализировать, оповещать о ваших показателях и понимать их независимо от того, где они хранятся. Создавайте, изучайте информационные панели и делитесь ими со своей командой, способствуя формированию культуры, основанной на данных:
 
-- **Visualizations:** Fast and flexible client side graphs with a multitude of options. Panel plugins offer many different ways to visualize metrics and logs.
-- **Dynamic Dashboards:** Create dynamic & reusable dashboards with template variables that appear as dropdowns at the top of the dashboard.
-- **Explore Metrics:** Explore your data through ad-hoc queries and dynamic drilldown. Split view and compare different time ranges, queries and data sources side by side.
-- **Explore Logs:** Experience the magic of switching from metrics to logs with preserved label filters. Quickly search through all your logs or streaming them live.
-- **Alerting:** Visually define alert rules for your most important metrics. Grafana will continuously evaluate and send notifications to systems like Slack, PagerDuty, VictorOps, OpsGenie.
-- **Mixed Data Sources:** Mix different data sources in the same graph! You can specify a data source on a per-query basis. This works for even custom datasources.
+- **Визуализация:** Быстрые и гибкие графики на стороне клиента с множеством опций. Плагины панели предлагают множество различных способов визуализации показателей и журналов.
+- **Динамические панели мониторинга:** Создавайте динамические и повторно используемые панели мониторинга с переменными шаблона, которые отображаются в виде выпадающих списков в верхней части панели мониторинга.
+- **Изучайте показатели:** Изучайте свои данные с помощью специальных запросов и динамической детализации. Разделите просмотр и сравните различные временные диапазоны, запросы и источники данных бок о бок.
+- **Просмотр журналов:** Ощутите волшебство переключения с метрик на журналы с сохраненными фильтрами меток. Быстрый поиск по всем вашим журналам или прямая трансляция.
+- **Оповещение:** Визуально определите правила оповещения для ваших наиболее важных показателей. Grafana будет постоянно оценивать и отправлять уведомления в такие системы, как Slack, PagerDuty, VictorOps, OpsGenie.
+- **Смешанные источники данных:** Смешивайте разные источники данных в одном графике! Вы можете указать источник данных для каждого запроса. Это работает даже для пользовательских источников данных.
 
-## Get started
+## Для начала
 
 - [Get Grafana](https://grafana.com/get)
 - [Installation guides](https://grafana.com/docs/grafana/latest/setup-grafana/installation/)
 
-Unsure if Grafana is for you? Watch Grafana in action on [play.grafana.org](https://play.grafana.org/)!
+Не уверены, подходит ли вам Grafana? Смотрите Grafana в действии на [play.grafana.org](https://play.grafana.org/)!
 
-## Documentation
+## Документация
 
-The Grafana documentation is available at [grafana.com/docs](https://grafana.com/docs/).
+Документация Grafana доступна по адресу [grafana.com/docs](https://grafana.com/docs/).
 
-## Contributing
+## Помощь
 
-If you're interested in contributing to the Grafana project:
+Если вы заинтересованы в том, чтобы внести свой вклад в проект Grafana:
 
-- Start by reading the [Contributing guide](https://github.com/grafana/grafana/blob/HEAD/CONTRIBUTING.md).
-- Learn how to set up your local environment, in our [Developer guide](https://github.com/grafana/grafana/blob/HEAD/contribute/developer-guide.md).
-- Explore our [beginner-friendly issues](https://github.com/grafana/grafana/issues?q=is%3Aopen+is%3Aissue+label%3A%22beginner+friendly%22).
-- Look through our [style guide and Storybook](https://developers.grafana.com/ui/latest/index.html).
+- Начните с прочтения [Contributing guide](https://github.com/grafana/grafana/blob/HEAD/CONTRIBUTING.md).
+- Узнайте, как настроить вашу локальную среду, в нашем [Developer guide](https://github.com/grafana/grafana/blob/HEAD/contribute/developer-guide.md).
+- Исследуйте наш [beginner-friendly issues](https://github.com/grafana/grafana/issues?q=is%3Aopen+is%3Aissue+label%3A%22beginner+friendly%22).
+- Посмотрите через наш [style guide and Storybook](https://developers.grafana.com/ui/latest/index.html).
 
-## Get involved
+## Приощайтесь
 
-- Follow [@grafana on Twitter](https://twitter.com/grafana/).
-- Read and subscribe to the [Grafana blog](https://grafana.com/blog/).
-- If you have a specific question, check out our [discussion forums](https://community.grafana.com/).
-- For general discussions, join us on the [official Slack](https://slack.grafana.com) team.
+- Подписаться [@grafana on Twitter](https://twitter.com/grafana/).
+- Прочтите и подпишитесь на [Grafana blog](https://grafana.com/blog/).
+- Если у вас есть конкретный вопрос, ознакомьтесь с нашим [discussion forums](https://community.grafana.com/).
+- Для общего обсуждения присоединяйтесь к нам на [official Slack](https://slack.grafana.com) team.
 
-This project is tested with [BrowserStack](https://www.browserstack.com/)
+Этот проект тестируется с помощью [BrowserStack](https://www.browserstack.com/)
 
-## License
+## Лицензия
 
-Grafana is distributed under [AGPL-3.0-only](LICENSE). For Apache-2.0 exceptions, see [LICENSING.md](https://github.com/grafana/grafana/blob/HEAD/LICENSING.md).
+Grafana распространяется под [AGPL-3.0-only](LICENSE). Об исключениях Apache-2.0 смотрите в разделе [LICENSING.md](https://github.com/grafana/grafana/blob/HEAD/LICENSING.md).
