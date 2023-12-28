@@ -36,7 +36,7 @@ Grafana позволяет вам запрашивать, визуализиро
 - Исследуйте наш [beginner-friendly issues](https://github.com/grafana/grafana/issues?q=is%3Aopen+is%3Aissue+label%3A%22beginner+friendly%22).
 - Посмотрите через наш [style guide and Storybook](https://developers.grafana.com/ui/latest/index.html).
 
-## Приощайтесь
+## Приобщайтесь
 
 - Подписаться [@grafana on Twitter](https://twitter.com/grafana/).
 - Прочтите и подпишитесь на [Grafana blog](https://grafana.com/blog/).
